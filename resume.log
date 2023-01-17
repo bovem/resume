@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2023.1.17)  17 JAN 2023 14:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2023.1.17)  17 JAN 2023 14:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -814,28 +814,29 @@ LaTeX Font Warning: Font shape `TU/Lato-Light(0)/m/sc' undefined
 LaTeX Font Warning: Font shape `TU/Lato-Black(0)/b/n' undefined
 (Font)              using `TU/Lato-Black(0)/m/n' instead on input line 74.
 
-
-LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 108.
-
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 160.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 148.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 160.
+(Font)              size <5> substituted on input line 148.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 160.
+(Font)              size <5> substituted on input line 148.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 160.
+(Font)              <11> on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 160.
+(Font)              <7.69997> on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 160.
+(Font)              <5.5> on input line 148.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 160.
+(Font)              size <5> substituted on input line 148.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 148--150
+[][]
+ []
 
 [1
 
@@ -848,15 +849,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: A017901E5D570F1B821874C3C4853155;478.
+(rerunfilecheck)             Checksum: 0C93F6A9598DD19DEF99EDAB8F9B3038;652.
  ) 
 Here is how much of TeX's memory you used:
- 17747 strings out of 476781
- 318585 string characters out of 5822078
- 698380 words of memory out of 6000000
- 37577 multiletter control sequences out of 15000+600000
- 408259 words of font info for 130 fonts, out of 8000000 for 9000
+ 17741 strings out of 476781
+ 318376 string characters out of 5822078
+ 690567 words of memory out of 6000000
+ 37573 multiletter control sequences out of 15000+600000
+ 408243 words of font info for 128 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,11n,151p,392b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.xdv (1 page, 32776 bytes).
+Output written on resume.xdv (1 page, 11620 bytes).

@@ -7,10 +7,10 @@
 % Convenience command - make it easy to fill template
 
 % Create job position command. Parameters: company, position, location, when
-\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
+\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3}\fakeNewLine}
 
 % Create education heading. Parameters: Name, degree, location, when
-\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3}\\
 \descript{#2}\fakeNewLine}
 
 \newcommand{\certificationHeading}[3]{\textbf{#1}\hspace*{\fill}{#2}\\}
@@ -71,32 +71,26 @@
 %     Experience
 %--------------------------------------------------------------
 \section{Work Experience}
-\resumeHeading{Red Hat}{Associate Software Quality Engineer }{Pune, India}{Jan 2022 - Present}
+\resumeHeading{Red Hat}{Associate Software Quality Engineer }{Jan 2022 - Present}{}
 \begin{bullets}
-        \item \textbf{API and Integration Testing: } Implemented unit and integration tests for all the API services associated with OpenShift Operator Certification.
-        \item \textbf{Chat Bot for Status Updates: } 
-        Created a Python based chat bot for hourly automation status updates.
-        \item \textbf{File Server: } Added updation and deletion operations to a Django based file server.
+        \item 
+        \item 
+        \item 
 \end{bullets}
 \sectionsep
 
-\resumeHeading{Red Hat}{Intern}{Pune, India}{Jun 2021 - Dec 2021}
+\resumeHeading{Red Hat}{Intern}{Jun 2021 - Dec 2021}{}
 \begin{bullets}
-        \item \textbf{RHEL Certification: } Implemented automation for testing RHEL beta OS builds on GCP and Azure.
-        \item \textbf{Montoring Dashboard: } 
-        Created a Django dashboard for monitoring of OS image builds
+        \item 
+        \item 
 \end{bullets}
 \sectionsep
 
-\resumeHeading{Taiyo AI}{Software Engineer}{Remote}{Sep 2019 - Jun 2021}
+\resumeHeading{Taiyo AI}{Software Engineer}{Sep 2019 - Jun 2021}{}
 \begin{bullets}
-        \item \textbf{Analytics Dashboard: } Created Grafana and Django based procurement analytics dashboards for clients such as Tata
-Steel, Bouygues, and Bloomenergy.
-        \item \textbf{Trading Agent: } 
-        Contributed on a trader agent that benchmark-ed at 22\% annual returns, consistently beating S\&P
-500.
-        \item \textbf{Asset Recommentation Tool: } Created an asset recommendation tool for investors that shortlists the top 10 assets from
-S\&P 500 index for investment.
+        \item 
+        \item 
+        \item 
 \end{bullets}
 \sectionsep
 
@@ -105,26 +99,6 @@ S\&P 500 index for investment.
 %--------------------------------------------------------------
 \section{Projects}
 
-\projectHeading{Stock Portfolio Optimization strategies}{https://github.com/bovem/portfolio-sim}{Python, Pyportfolioopt, Django, Dash, ML}
-Created modules for fetching, cleaning and processing intraday
-OHLC data from NSE. Backtested portfolio optimization algorithms in a stock market simulation environment.\\
-\sectionsep
-  
-\projectHeading{Data Pipeline GUI}{https://github.com/bovem/DataWiz}{Python, Django, Dash, Data Analysis}
-End-to-End data science pipeline application. Supports data import, processing, cleaning, visualization,
-machine learning algorithms and export.\\
-\sectionsep
-
-\projectHeading{Flutter Mobile Application}{https://github.com/bovem/Courser}{Dart, Flutter, Firebase, Android Development}
-Search engine for online learning resources. Supports user contributions, reviews, and upvotes.
-\sectionsep
-
-\projectHeading{Stock Screener}{https://github.com/bovem/stock-tracker}{Python, Dash, Pandas, Data Analysis}
-An interactive data visualization application developed in Python, with the help of Dash , yfinance and Pandas.\\
-\sectionsep
-
-\projectHeading{Personal Portfolio and Blog}{https://github.com/bovem/old.bovem.github.io}{Jekyll, Bootstrap, Blog}
- Jekyll based website hosted on Netlify.\\
 \sectionsep
 
 % Example using bullets and dates 
@@ -133,13 +107,27 @@ An interactive data visualization application developed in Python, with the help
     % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
 % \end{bullets}
 % \sectionsep
-  
+
+%--------------------------------------------------------------
+%     Open Source Contributions
+%--------------------------------------------------------------
+\section{Open Source Contributions}
+
+\sectionsep
+
+% Example using bullets and dates 
+% \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
+% \begin{bullets}
+    % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
+% \end{bullets}
+% \sectionsep
+
 %--------------------------------------------------------------
 %     Education
 %--------------------------------------------------------------
 \section{Education}
 % Put school first and degree second if your school is reputable
-\educationHeading{Bachelor of Technology in IT}{Guru Gobind Singh Indraprastha University}{Delhi, India}{Jun 2021}
+\educationHeading{Bachelor of Technology in IT}{Guru Gobind Singh Indraprastha University}{Jun 2021}{}
 
 \courseWork{Operating Systems, Database Management Systems, System Design, Data Structures and Algorithms}
 \sectionsep
@@ -158,13 +146,7 @@ An interactive data visualization application developed in Python, with the help
 %--------------------------------------------------------------
 \section{Skills}
 \begin{skillList}
-    \singleItem{Programming Languages:}{Python, C++, JavaScript, SQL, Bash, Java}
-    \\
-    \singleItem{Frameworks:}{Tekton, Scikit, TensorFlow, Django, Flask}
-    \\
-    \singleItem{Technology:}{Kubernetes, Docker, GIT, OpenShift, PostgreSQL, MySQL, SQLite}
-    \\
-    \singleItem{Platforms:}{Linux, AWS, GCP, IBM Cloud}
+
 \end{skillList}
 
 % A more concise alternate 
