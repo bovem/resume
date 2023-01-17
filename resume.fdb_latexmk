@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1673946175 "resume.xdv" "resume.pdf" "resume" 1673946175 0
-  "resume.xdv" 1673946175 11620 643211e363dfb5467090d0f697d15f2d "xelatex"
+["xdvipdfmx"] 1673965999 "resume.xdv" "resume.pdf" "resume" 1673965999 0
+  "resume.xdv" 1673965999 20244 1559c9137cb5fa3c6e84bdce7e8dbde8 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1673946174 "/home/bovem/Projects/Resume/resume.tex" "resume.xdv" "resume" 1673946175 0
-  "/home/bovem/Projects/Resume/resume.tex" 1673946172 6317 2efa485b0a70df56f2bef2de79ce4e2a ""
+["xelatex"] 1673965999 "/home/bovem/Projects/Resume/resume.tex" "resume.xdv" "resume" 1673965999 0
+  "/home/bovem/Projects/Resume/resume.tex" 1673965998 7316 b48091f30fa5b170a0e61ea9fa16f405 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -104,9 +104,9 @@
   "lato-font.sty" 1673915834 2820 91dfc2c04341f97362aa67827eac3ad9 ""
   "raleway-font.sty" 1673915834 2349 afd800725cc5b30b7a33bed5858d87d9 ""
   "resume-openfont.cls" 1673915834 4204 e3295ab24a6de0eae4670af4631a4b34 ""
-  "resume.aux" 1673946175 1391 d7de52446363d8e5797fa34a8e7bb1e2 "xelatex"
-  "resume.out" 1673946175 652 0c93f6a9598dd19def99edab8f9b3038 "xelatex"
-  "resume.tex" 1673946172 6317 2efa485b0a70df56f2bef2de79ce4e2a ""
+  "resume.aux" 1673965999 1391 d7de52446363d8e5797fa34a8e7bb1e2 "xelatex"
+  "resume.out" 1673965999 652 0c93f6a9598dd19def99edab8f9b3038 "xelatex"
+  "resume.tex" 1673965998 7316 b48091f30fa5b170a0e61ea9fa16f405 ""
   (generated)
   "resume.aux"
   "resume.log"
