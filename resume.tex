@@ -60,7 +60,7 @@
 % \end{tabular*}
 
 \begin{center}
-    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+    \Huge \scshape \latoBold{\yourName} \\ \vspace{5pt}
      \small \href{\yourWebsiteLink}{{\yourWebsite}} $|$
      \href{mailto:\yourEmail}{{\yourEmail}}  $|$  \yourPhone \ $|$ 
     \href{https://www.linkedin.com/in/\linkedInUserName}{{linkedIn/\linkedInUserName}} $|$
@@ -75,24 +75,25 @@
 \section{Work Experience}
 \resumeHeading{Red Hat}{Associate Software Quality Engineer }{Jan 2022 - Present}{}
 \begin{bullets}
-        \item Refactored end-to-end automation pipeline for \textbf{OpenShift Operator} Certification reducing runtime by 40\%.
+        \item Refactored automation pipeline for \textbf{OpenShift Operator} Certification \textbf{reducing runtime by 40\%}.
         \item Developed a \textbf{Python} based \textbf{Google Chat Bot} for reporting and analysis of automation runs to the stakeholders.
-        \item Coordinated on product releases impacting delivery of 9000+ partner products listed on Red Hat Catalog.
+        \item Automated E2E testing of services crucial for certification of \textbf{9000+ products} listed on Red Hat Catalog.
 \end{bullets}
 \sectionsep
 
 \resumeHeading{Red Hat}{Intern}{Jul 2021 - Dec 2021}{}
 \begin{bullets}
-        \item Containerized \textbf{YUM package repository} used internally for \textbf{RHEL Hardware certification} packages.
+        \item Containerized the \textbf{YUM package repository} used internally for \textbf{RHEL Hardware certification} packages.
         \item Created automation pipelines for RHEL certification of VM instances on \textbf{GCP} and \textbf{Azure}.
 \end{bullets}
 \sectionsep
 
 \resumeHeading{Taiyo AI}{Software Engineer}{Sep 2019 - Jun 2021}{}
 \begin{bullets}
-        \item Created a raw material procurement dashboard using \textbf{Grafana}, \textbf{Django}, and \textbf{PostgreSQL}.
-        \item Developed an API for fetching technical indicators for all the stocks listed on NYSE and NASDAQ stock exchanges from different stock screening platforms.
-        \item Prototyped a trading agent using \textbf{Python} and \textbf{pyportfolioopt} library that analyzed intraday data and technical indicators to generate stock portfolios.
+        \item Created a \textbf{risk analysis} \& raw material procurement dashboard using \textbf{Grafana}, \textbf{Django}, and \textbf{PostgreSQL}.
+        \item Developed an API aggregator for technical indicators covering \textbf{2500+} companies listed on US stock exchanges.
+        % \item Prototyped a portfolio risk analysis based trading agent that \textbf{outperformed S\&P500 annually}.
+        \item Intergrated data streams for macroeconomic indicators, international trade volume, and maritime traffic.
 \end{bullets}
 \sectionsep
 
@@ -105,13 +106,22 @@
 
 % Example using bullets and dates 
 \projectHeading{Stock Portfolio Strategy Simulation}{https://github.com/bovem/portfolio-sim}{Python, Plotly, Machine Learning}
-Simulation and performance analysis of different stock portfolio optimization algorithms.\\
+\begin{bullets}
+    \item Simulation and performance analysis of different stock portfolio optimization algorithms.\\
+    \item Compiled  \\
+\end{bullets}
 \sectionsep
 \projectHeading{Search Engine for Online Courses}{https://github.com/bovem/Courser}{Flutter, Dart, Firebase, Android Development}
-Review-based app for searching online courses provided by different platforms based on reviews and upvotes.\\
+\begin{bullets}
+    \item Review-based \textbf{mobile appication for searching online courses} provided by different platforms. \\
+    \item \textbf{Scraped 1000+ online courses} with their details from multiple platforms.\\
+\end{bullets}
 \sectionsep
 \projectHeading{Data Analysis Platform}{https://github.com/bovem/datawiz}{Dash, Django, Web Developemnt}
-Web platform for cleanup and analysis of datasets. Modules for prototyping of basic Machine Learning algorithms.\\
+\begin{bullets}
+    \item Web platform for visualization, cleanup and analysis of datasets.
+    \item Modularized different \textbf{data analysis}, \textbf{machine learning}, and \textbf{cleanup} tools available in \textbf{pandas} and \textbf{scikit-learn} Python libraries.\\
+\end{bullets}
 \sectionsep
 
 %--------------------------------------------------------------
@@ -123,14 +133,14 @@ Web platform for cleanup and analysis of datasets. Modules for prototyping of ba
 \begin{bullets}
 \item \openSourceHeading{https://github.com/rh-impact/pl-statsmodels/pull/2}{Added statsmodels plugin to CHRIS project, a distributed data and computation platform}{}
 \item \openSourceHeading{https://github.com/stitchfix/hamilton/pull/209}{Containerized examples for hamilton, a micro-framework for creating dataflows}{}
-\item \openSourceHeading{https://github.com/brettvanderwerff/Flaskerizer/pull/73}{Minimized complexity and improved performance of hyperlink parsing on Flaskerizer}{}
+\item \openSourceHeading{https://github.com/brettvanderwerff/Flaskerizer/pull/73}{Minimized complexity and improved performance of hyperlink parsing by 7 folds on Flaskerizer}{}
 \end{bullets}
 % Example using bullets and dates 
 % \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
 % \begin{bullets}
     % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
 % \end{bullets}
-% \sectionsep
+\sectionsep
 
 %--------------------------------------------------------------
 %     Education
@@ -139,7 +149,7 @@ Web platform for cleanup and analysis of datasets. Modules for prototyping of ba
 % Put school first and degree second if your school is reputable
 \educationHeading{Bachelor of Technology in IT}{Guru Gobind Singh Indraprastha University}{Jun 2021}{}
 
-\courseWork{Operating Systems, Database Management Systems, System Design, Data Structures and Algorithms}
+% \courseWork{Operating Systems, Database Management Systems, System Design, Data Structures and Algorithms}
 \sectionsep
 
 %--------------------------------------------------------------
@@ -156,7 +166,13 @@ Web platform for cleanup and analysis of datasets. Modules for prototyping of ba
 %--------------------------------------------------------------
 \section{Skills}
 \begin{skillList}
-
+    \singleItem{Programming Languages:}{Python, C++, JavaScript, SQL, Bash, Java}
+    \\
+    \singleItem{Frameworks:}{Tekton, Scikit, TensorFlow, Django, Flask}
+    \\
+    \singleItem{Technology:}{Kubernetes, Docker, Git, OpenShift, PostgreSQL, MySQL, SQLite}
+    \\
+    \singleItem{Platforms:}{GNU/LINUX, AWS, GCP, IBM Cloud}
 \end{skillList}
 
 % A more concise alternate 

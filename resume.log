@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2023.1.17)  17 JAN 2023 20:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2023.1.17)  19 JAN 2023 01:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -797,8 +797,8 @@ LaTeX Font Warning: Font shape `TU/Lato-Light(1)/m/sc' undefined
 (Font)              using `TU/Lato-Light(1)/m/n' instead on input line 63.
 
 
-LaTeX Font Warning: Font shape `TU/Lato-Regular(0)/m/sc' undefined
-(Font)              using `TU/Lato-Regular(0)/m/n' instead on input line 63.
+LaTeX Font Warning: Font shape `TU/Lato-Bold(0)/m/sc' undefined
+(Font)              using `TU/Lato-Bold(0)/m/n' instead on input line 63.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 64.
@@ -816,31 +816,26 @@ LaTeX Font Warning: Font shape `TU/Lato-Black(0)/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 107.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 108.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 158.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 168.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 158.
+(Font)              size <5> substituted on input line 168.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 158.
+(Font)              size <5> substituted on input line 168.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 158.
+(Font)              <11> on input line 168.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 158.
+(Font)              <7.69997> on input line 168.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 158.
+(Font)              <5.5> on input line 168.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 158.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 158--160
-[][]
- []
+(Font)              size <5> substituted on input line 168.
 
 [1
 
@@ -856,12 +851,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 0C93F6A9598DD19DEF99EDAB8F9B3038;652.
  ) 
 Here is how much of TeX's memory you used:
- 17746 strings out of 476781
- 318491 string characters out of 5822078
- 696580 words of memory out of 6000000
- 37577 multiletter control sequences out of 15000+600000
- 408251 words of font info for 129 fonts, out of 8000000 for 9000
+ 17748 strings out of 476781
+ 318590 string characters out of 5822078
+ 698580 words of memory out of 6000000
+ 37578 multiletter control sequences out of 15000+600000
+ 408259 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,11n,151p,392b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.xdv (1 page, 29128 bytes).
+Output written on resume.xdv (1 page, 31880 bytes).
