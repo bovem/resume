@@ -1,0 +1,186 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3}\fakeNewLine}
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3}\\
+\descript{#2}\fakeNewLine}
+
+\newcommand{\certificationHeading}[3]{\textbf{#1}\hspace*{\fill}{#2}\\}
+
+\newcommand{\openSourceHeading}[3]{\href{#1}{#2}\\}
+
+% Create project heading. Parameters: Name, link, Tech stack
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+\newcommand{\projectHeadingWithDate}[4]{\Project{#1}{#2}
+\descript{#3 | #4}\\}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\textbf{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\teacherAssistant}[1]{\textbf{Teacher Assistant (TA):} #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Avnish Pal}
+% How you want it to show up on the resume
+\newcommand{\yourWebsite}{www.bovem.in}
+% vs how you want it to show up. If it's the same you can just replace "\yourWebsiteLink" with "yourWebsite"
+\newcommand{\yourWebsiteLink}{https://www.bovem.in}
+\newcommand{\yourEmail}{avnishnish07@gmail.com}
+\newcommand{\yourPhone}{+918588064883}
+\newcommand{\githubUserName}{bovem}
+\newcommand{\linkedInUserName}{avnish-pal}
+
+% An alternate profile section 
+% \alignProfileTable
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \ralewayBold{\href{\yourWebsiteLink}{\Large \yourName}} & 
+%     Email : \href{mailto:\yourEmail}{\yourEmail}
+%     \\
+%     \href{https://github.com/\githubUserName}{GitHub://\githubUserName} & 
+%     Mobile : \yourPhone
+%     \\
+%     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & Website : \href{\yourWebsiteLink}{\yourWebsite}
+%     \\
+% \end{tabular*}
+
+\begin{center}
+    \Huge \scshape \latoBold{\yourName} \\ \vspace{5pt}
+     \small \href{\yourWebsiteLink}{{\yourWebsite}} $|$
+     \href{mailto:\yourEmail}{{\yourEmail}}  $|$  \yourPhone \ $|$ 
+    \href{https://www.linkedin.com/in/\linkedInUserName}{{linkedIn/\linkedInUserName}} $|$
+    \href{https://github.com/\githubUserName}{{github/\githubUserName}} 
+    
+\end{center}
+
+
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Work Experience}
+\resumeHeading{Red Hat}{Associate Software Quality Engineer }{Jan 2022 - Present}{}
+\begin{bullets}
+        \item Refactored automation pipeline for \textbf{OpenShift Operator} Certification \textbf{reducing runtime by 40\%}.
+        \item Developed a \textbf{Python} based \textbf{Google Chat Bot} for reporting and analysis of automation runs to the stakeholders.
+        \item Automated E2E testing of services crucial for certification of \textbf{9000+ products} listed on Red Hat Catalog.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{Red Hat}{Intern}{Jul 2021 - Dec 2021}{}
+\begin{bullets}
+        \item Containerized the \textbf{YUM package repository} used internally for \textbf{RHEL Hardware certification} packages.
+        \item Created automation pipelines for RHEL certification of VM instances on \textbf{GCP} and \textbf{Azure}.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{Taiyo AI}{Software Engineer}{Sep 2019 - Jun 2021}{}
+\begin{bullets}
+        \item Created a \textbf{risk analysis} \& raw material procurement dashboard using \textbf{Grafana}, \textbf{Django}, and \textbf{PostgreSQL}.
+        \item Developed an API aggregator for technical indicators covering \textbf{2500+} companies listed on US stock exchanges.
+        % \item Prototyped a portfolio risk analysis based trading agent that \textbf{outperformed S\&P500 annually}.
+        \item \textbf{Intergrated data streams} for macroeconomic indicators, international trade volume, and maritime traffic.
+\end{bullets}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{Projects}
+
+\sectionsep
+
+% Example using bullets and dates 
+\projectHeading{Stock Portfolio Strategy Simulation}{https://github.com/bovem/portfolio-sim}{Python, Plotly, Machine Learning}
+\begin{bullets}
+    \item Simulation and performance analysis of different stock portfolio optimization algorithms.\\
+    \item Backtesting of all strategies on \textbf{11 years of intraday stock market data} and technical indicators.  \\
+\end{bullets}
+\sectionsep
+\projectHeading{Search Engine for Online Courses}{https://github.com/bovem/Courser}{Flutter, Dart, Firebase, Android Development}
+\begin{bullets}
+    \item Review-based \textbf{mobile appication for searching online courses} provided by different platforms. \\
+    \item Stored details of \textbf{1000+ online courses} provided from multiple platforms alongwith their reviews and upvotes.\\
+\end{bullets}
+\sectionsep
+\projectHeading{Data Analysis Platform}{https://github.com/bovem/datawiz}{Dash, Django, Web Developemnt}
+\begin{bullets}
+    \item Web platform for visualization, cleanup and exploratory data analysis.
+    \item Packaged tools provided in \textbf{pandas} and \textbf{scikit-learn} Python libraries into GUI modules.\\
+\end{bullets}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Open Source Contributions
+%--------------------------------------------------------------
+\section{Open Source Contributions}
+
+\sectionsep
+\begin{bullets}
+\item \openSourceHeading{https://github.com/rh-impact/pl-statsmodels/pull/2}{Added statsmodels plugin to CHRIS project, a distributed data and computation platform}{}
+\item \openSourceHeading{https://github.com/stitchfix/hamilton/pull/209}{Containerized examples for hamilton, a micro-framework for creating dataflows}{}
+\item \openSourceHeading{https://github.com/brettvanderwerff/Flaskerizer/pull/73}{Minimized complexity and improved performance of hyperlink parsing by 7 folds on Flaskerizer}{}
+\end{bullets}
+% Example using bullets and dates 
+% \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
+% \begin{bullets}
+    % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
+% \end{bullets}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+% Put school first and degree second if your school is reputable
+\educationHeading{Bachelor of Technology in IT}{Guru Gobind Singh Indraprastha University}{Jun 2021}{}
+
+% \courseWork{Operating Systems, Database Management Systems, System Design, Data Structures and Algorithms}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Certifications
+%--------------------------------------------------------------
+\section{Certifications}
+% Put school first and degree second if your school is reputable
+\certificationHeading{Red Hat Certified Specialist in Containers and Kubernetes}{Podman, Kubernetes, OpenShift}\\
+\certificationHeading{Red Hat Certified System Administrator (RHCSA)}{Bash, Linux, RHEL8}\\
+\sectionsep
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{skillList}
+    \singleItem{Programming Languages:}{Python, C++, JavaScript, SQL, Bash, Java}
+    \\
+    \singleItem{Frameworks:}{Tekton, Scikit, TensorFlow, Django, Flask}
+    \\
+    \singleItem{Technology:}{Kubernetes, Docker, Git, OpenShift, PostgreSQL, MySQL, SQLite}
+    \\
+    \singleItem{Platforms:}{GNU/LINUX, AWS, GCP, IBM Cloud}
+\end{skillList}
+
+% A more concise alternate 
+% \begin{skillList}
+%     \doubleItem{Languages:}{Java, C++, Python, C\#, PHP, Prolog, Bash, C, Racket}%
+%     {Databases:}{SQL, MongoDB, Neo4j, DynamoDB}
+%     \\
+%     \doubleItem{Web Development:}{JavaScript, TypeScript, React, HTML/CSS}
+%     {Technology:}{Git, AWS, GCP, Azure, Docker, \LaTeX}%
+% \end{skillList}
+\end{document}
