@@ -1,7 +1,7 @@
-1.5YoE/DevOps/Resume-AvnishPal-ASQE-1.5YoE.aux
-1.5YoE/DevOps/Resume-AvnishPal-ASQE-1.5YoE.fls
-1.5YoE/DevOps/Resume-AvnishPal-ASQE-1.5YoE.fdb_latexmk
-1.5YoE/DevOps/Resume-AvnishPal-ASQE-1.5YoE.log
-1.5YoE/DevOps/Resume-AvnishPal-ASQE-1.5YoE.out
-1.5YoE/DevOps/Resume-AvnishPal-ASQE-1.5YoE.synctex.gz
-1.5YoE/DevOps/Resume-AvnishPal-ASQE-1.5YoE.xdv
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.xdv
